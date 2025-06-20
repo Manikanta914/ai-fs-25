@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header, footer {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      background: #f2f2f2;
+      padding: 10px;
+      width: 150px;
+    }
+    .content {
+      padding: 10px;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Simple Page
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <p><strong>Sidebar</strong></p>
+      <p><a href="#">Link 1</a></p>
+      <p><a href="#">Link 2</a></p>
+    </div>
+    <div class="content">
+      <h2>Welcome!</h2>
+      <p>This is a minimal example with header, sidebar, content, and footer.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Mini Project
+  </footer>
+
+</body>
+</html>
